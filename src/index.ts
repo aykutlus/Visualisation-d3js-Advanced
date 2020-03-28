@@ -120,4 +120,3 @@ document
     updateCircles(now)
     updateColor(now)
   });
-
