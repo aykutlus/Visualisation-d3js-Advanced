@@ -21,6 +21,7 @@ const calculateRadiusBasedOnAffectedCases = (comunidad: string, data: Numbers[])
   return entry ? affectedRadiusScale(entry.value) : 0;
 };
 
+
 const changecolorbasedoninfectedcase = (comunidad: String, data: Numbers[]) => {
 
   const entry = data.find(item => item.name === comunidad);
@@ -80,7 +81,7 @@ svg
   .attr("cy", d => aProjection([d.long, d.lat])[1])
 
 
-//update buttons
+//update circles
 const updateCircles = (data: Numbers[]) => {
   const circles = svg.selectAll("circle");
   circles
