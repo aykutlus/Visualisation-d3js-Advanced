@@ -63,7 +63,9 @@ svg
   .attr("class", "country")
   // data loaded from json file
   .attr("d", geoPath as any)
-  .attr("fill", (d) => changecolorbasedoninfectedcase(d['properties']['NAME_1'], initial));
+  .style("fill", function (d: any) {
+    return changecolorbasedoninfectedcase(d.properties.NAME_1, initial);
+  })
 
 
 
