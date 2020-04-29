@@ -1,6 +1,6 @@
 # Spain COVID-19 Visualisation
 
-In below map, infected cases are shown by color and circles. With button, it can be seen evaluation of confirmed cases in Spain. 
+In below map, infected cases are shown by color and circles. You can see evaluation of confirmed cases in Spain by clicking button. 
 
 ![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/35189163/77831127-80682f80-712d-11ea-9551-46ef20c9d044.gif)
 
